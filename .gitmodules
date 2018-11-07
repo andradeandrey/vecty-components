@@ -1,0 +1,3 @@
+[submodule "qrscanner/lib"]
+	path = qrscanner/lib
+	url = https://github.com/nimiq/qr-scanner.git

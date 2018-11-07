@@ -1,0 +1,13 @@
+github.com/gopherjs/gopherjs v0.0.0-20180825215210-0210a2f0f73c/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
+github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e h1:JKmoR8x90Iww1ks85zJ1lfDGgIiMDuIptTOhJq+zKyg=
+github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
+github.com/gopherjs/gopherwasm v1.0.1 h1:Gmj9RMDjh+P9EFzzQltoCtjAxR5mUkaJqaNPfeaNe2I=
+github.com/gopherjs/gopherwasm v1.0.1/go.mod h1:SkZ8z7CWBz5VXbhJel8TxCmAcsQqzgWGR/8nMhyhZSI=
+github.com/gopherjs/vecty v0.0.0-20180525005238-a3bd138280bf h1:J7WjKCdpxMhXDzFPP6d41YonnCnPi1JkYOFxIPoH1E0=
+github.com/gopherjs/vecty v0.0.0-20180525005238-a3bd138280bf/go.mod h1:5YRDuy7i7SgM0kL+0b5oq+jfDTqPyzV3TQbcDkBvcoE=
+github.com/gowasm/gopherwasm v0.0.0-20180622143348-808277451168 h1:tq9zfSCWvog+lO7P+ptuvdbhi/hX+ekr2aRoqTQ+Yh8=
+github.com/gowasm/gopherwasm v0.0.0-20180622143348-808277451168/go.mod h1:of0v6vtKgdDgZBNQt3pNPUla3n2O6QRVX5DeNYXRKdg=
+github.com/gowasm/vecty v0.0.1 h1:lJOkBRuFuK972e4hEnQAq0DwuGkpkUyF78v2EgkJ6Vs=
+github.com/gowasm/vecty v0.0.1/go.mod h1:otcQ+kDw3rABBAlJh8bQ1+OtW2kjmJzXo2cXYyFtkj4=
+github.com/vincent-petithory/dataurl v0.0.0-20160330182126-9a301d65acbb h1:lyL3z7vYwTWXf4/bI+A01+cCSnfhKIBhy+SQ46Z/ml8=
+github.com/vincent-petithory/dataurl v0.0.0-20160330182126-9a301d65acbb/go.mod h1:FHafX5vmDzyP+1CQATJn7WFKc9CvnvxyvZy6I1MrG/U=
