@@ -1,6 +1,6 @@
 package qrscanner
 
-//go:generate bash -c "npm install -D webpack webpack-cli raw-loader && node_modules/.bin/webpack --mode=production src/index.js --output index.inc.js"
+//go:generate bash -c "npm install && npm run build"
 
 import (
 	"log"
