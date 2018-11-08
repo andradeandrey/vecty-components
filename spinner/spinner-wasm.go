@@ -1,10 +1,10 @@
-// +build !wasm
+// +build wasm
 
 package spinner
 
 import (
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
+	"github.com/gowasm/vecty"
+	"github.com/gowasm/vecty/elem"
 	"github.com/vincent-petithory/dataurl"
 )
 

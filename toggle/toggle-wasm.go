@@ -1,12 +1,12 @@
-// +build !wasm
+// +build wasm
 
 package toggle
 
 import (
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/event"
-	"github.com/gopherjs/vecty/prop"
+	"github.com/gowasm/vecty"
+	"github.com/gowasm/vecty/elem"
+	"github.com/gowasm/vecty/event"
+	"github.com/gowasm/vecty/prop"
 	"github.com/vincent-petithory/dataurl"
 )
 

@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "webpack --mode=production src/index.js --output index.inc.js"
+    "build": "webpack --mode=production src/index.js --output dist/main.js"
   },
   "author": "nobonobo",
   "license": "MIT"
