@@ -7,7 +7,7 @@ import (
 
 	"github.com/gopherjs/vecty"
 	"github.com/gopherjs/vecty/elem"
-	"github.com/gowasm/gopherwasm/js"
+	"github.com/gopherjs/gopherwasm/js"
 	"github.com/nobonobo/vecty-components/qrcode"
 	"github.com/nobonobo/vecty-components/qrscanner"
 	"github.com/nobonobo/vecty-components/camera"

@@ -8,7 +8,7 @@ import (
 	"github.com/gopherjs/vecty"
 	"github.com/gopherjs/vecty/elem"
 	"github.com/gopherjs/vecty/prop"
-	"github.com/gowasm/gopherwasm/js"
+	"github.com/gopherjs/gopherwasm/js"
 	"github.com/vincent-petithory/dataurl"
 )
 
@@ -18,9 +18,9 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	s := js.Global.Get("document").Call("createElement", "script")
+	s := js.Global().Get("document").Call("createElement", "script")
 	s.Set("src", dataurl.New(b, "application/javascript").String())
-	js.Global.Get("document").Get("head").Call("appendChild", s)
+	js.Global().Get("document").Get("head").Call("appendChild", s)
 	s.Call("addEventListener", "load", js.NewCallback(func([]js.Value) {
 		close(ch)
 	}))
@@ -49,8 +49,8 @@ func (c *Scanner) Render() vecty.ComponentOrHTML {
 
 // Mount ...
 func (c *Scanner) Mount() {
-	video := js.Global.Get("document").Call("getElementById", c.ID)
-	qr := js.Global.Get("QrScanner")
+	video := js.Global().Get("document").Call("getElementById", c.ID)
+	qr := js.Global().Get("QrScanner")
 	log.Println(qr)
 	scanner := qr.New(video, c.Callback)
 	scanner.Call("start")
@@ -60,7 +60,7 @@ func (c *Scanner) Mount() {
 
 // Unmount ...
 func (c *Scanner) Unmount() {
-	if c.scanner != js.Null {
+	if c.scanner != js.Null() {
 		c.scanner.Call("stop")
 		log.Println("scanner stop")
 	}
