@@ -5,16 +5,10 @@ github.com/gopherjs/gopherwasm v1.0.1 h1:Gmj9RMDjh+P9EFzzQltoCtjAxR5mUkaJqaNPfea
 github.com/gopherjs/gopherwasm v1.0.1/go.mod h1:SkZ8z7CWBz5VXbhJel8TxCmAcsQqzgWGR/8nMhyhZSI=
 github.com/gopherjs/vecty v0.0.0-20180525005238-a3bd138280bf h1:J7WjKCdpxMhXDzFPP6d41YonnCnPi1JkYOFxIPoH1E0=
 github.com/gopherjs/vecty v0.0.0-20180525005238-a3bd138280bf/go.mod h1:5YRDuy7i7SgM0kL+0b5oq+jfDTqPyzV3TQbcDkBvcoE=
-github.com/gowasm/gopherwasm v0.0.0-20180622143348-808277451168 h1:tq9zfSCWvog+lO7P+ptuvdbhi/hX+ekr2aRoqTQ+Yh8=
-github.com/gowasm/gopherwasm v0.0.0-20180622143348-808277451168/go.mod h1:of0v6vtKgdDgZBNQt3pNPUla3n2O6QRVX5DeNYXRKdg=
 github.com/gowasm/vecty v0.0.1 h1:lJOkBRuFuK972e4hEnQAq0DwuGkpkUyF78v2EgkJ6Vs=
 github.com/gowasm/vecty v0.0.1/go.mod h1:otcQ+kDw3rABBAlJh8bQ1+OtW2kjmJzXo2cXYyFtkj4=
 github.com/mjibson/esc v0.1.0 h1:5ch+murgrcwDFLOE2hwj0f7kE4xJfJhkSCAjSLY182o=
 github.com/mjibson/esc v0.1.0/go.mod h1:9Hw9gxxfHulMF5OJKCyhYD7PzlSdhzXyaGEBRPH1OPs=
-github.com/shurcooL/httpfs v0.0.0-20171119174359-809beceb2371 h1:SWV2fHctRpRrp49VXJ6UZja7gU9QLHwRpIPBN89SKEo=
-github.com/shurcooL/httpfs v0.0.0-20171119174359-809beceb2371/go.mod h1:ZY1cvUeJuFPAdZ/B6v7RHavJWZn2YPVFQ1OSXhCGOkg=
-github.com/shurcooL/vfsgen v0.0.0-20181020040650-a97a25d856ca h1:3fECS8atRjByijiI8yYiuwLwQ2ZxXobW7ua/8GRB3pI=
-github.com/shurcooL/vfsgen v0.0.0-20181020040650-a97a25d856ca/go.mod h1:TrYk7fJVaAttu97ZZKrO9UbRa8izdowaMIZcxYMbVaw=
 github.com/skip2/go-qrcode v0.0.0-20171229120447-cf5f9fa2f0d8 h1:5C4yAeYifeRO+7z2/H2kxL8tJZE9ZE9LpxK6YUZPByo=
 github.com/skip2/go-qrcode v0.0.0-20171229120447-cf5f9fa2f0d8/go.mod h1:PLPIyL7ikehBD1OAjmKKiOEhbvWyHGaNDjquXMcYABo=
 github.com/vincent-petithory/dataurl v0.0.0-20160330182126-9a301d65acbb h1:lyL3z7vYwTWXf4/bI+A01+cCSnfhKIBhy+SQ46Z/ml8=
